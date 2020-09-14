@@ -1,0 +1,1 @@
+git log --diff-filter=A --follow --format=%aI -- AutoTags.kts

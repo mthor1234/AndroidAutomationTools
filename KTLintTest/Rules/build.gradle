@@ -1,0 +1,22 @@
+/*
+ * *
+ *  * Copyright Tandem Diabetes Care, Inc. 2018-9/10/20 2:48 PM. All rights reserved.
+ *  * build.gradle
+ *  * This class has a group of functions that maps to Larcus Cloud API authentication.
+ *  * @author mthornton Feb 28, 2018
+ *  
+ */
+
+apply plugin: 'java-library'
+apply plugin: 'kotlin'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+    compileOnly "com.android.tools.lint:lint-api:27.0.1"
+    compileOnly "com.android.tools.lint:lint-checks:27.0.1"
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"

@@ -1,0 +1,3 @@
+include ':Rules'
+include ':app'
+rootProject.name = "KTLintTest"
